@@ -1,0 +1,20 @@
+{
+  "name": "jest-snippets",
+  "displayName": "jest-snippets",
+  "description": "jest-snippets、よく使うやつ",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.54.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "typescript",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}

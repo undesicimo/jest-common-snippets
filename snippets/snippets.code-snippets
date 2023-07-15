@@ -1,0 +1,83 @@
+{
+	"aaa": {
+		"scope": "typescript",
+		"prefix": "aaa",
+		"body": ["// Arrange", "", "// Act", "", "// Assert"]
+	},
+	"describe": {
+		"prefix": "desc",
+		"body": "describe('', () => {\n\t$2\n});"
+	},
+	"happy case": {
+		"scope": "javascript,typescript",
+		"prefix": "ijyo",
+		"body": ["describe('異常系', () => {", "", "})"]
+	},
+	"error case": {
+		"scope": "javascript,typescript",
+		"prefix": "ijyo",
+		"body": ["describe('異常系', () => {", "", "})"]
+	},
+	"it": {
+		"scope": "typescript,javascript",
+		"prefix": "it",
+		"body": ["it('',async()=>{// Arrange", "", "// Act", "", "// Assert})"],
+		"description": "it for tests"
+	},
+	"cons": {
+		"prefix": "cons",
+		"body": "console.log(\"test\")",
+		"description": "consolelog"
+	},
+	"it asyn": {
+		"prefix": "its",
+		"body": [
+			"it('', async ()=>{",
+			"         // Arrange",
+			"",
+			"         // Act",
+			"",
+			"         // Assert",
+			"         })"
+		],
+		"description": "it async"
+	},
+	"after each async": {
+		"prefix": "afs",
+		"body": ["afterEach(async()=>{", "", "    })"],
+		"description": "description for after each async"
+	},
+	"before each async": {
+		"prefix": "bfs",
+		"body": ["beforeEach(async()=>{", "", "    })"],
+		"description": "description for after each async"
+	},
+	"boiler": {
+		"prefix": "boiler",
+		"body": [
+			"const organizationId = generateId();",
+			"",
+			"describe('', ()=> {",
+			"  describe('異常系',()=> {",
+			"  it('', async ()=>{",
+			"         // Arrange",
+			"",
+			"         // Act",
+			"",
+			"         // Assert",
+			"         })",
+			"  })",
+			"  describe('正常系', ()=> {",
+			"  it('', async ()=>{",
+			"           // Arrange",
+			"",
+			"           // Act",
+			"",
+			"           // Assert",
+			"           })",
+			"  })",
+			"}) "
+		],
+		"description": "boiler plate"
+	}
+}
