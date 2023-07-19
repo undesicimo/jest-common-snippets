@@ -1,20 +1,22 @@
 {
-  "name": "jest-snippets",
-  "displayName": "jest-snippets",
-  "description": "jest-snippets、よく使うやつ",
-  "version": "0.0.1",
-  "engines": {
-    "vscode": "^1.54.0"
-  },
-  "categories": [
-    "Snippets"
-  ],
-  "contributes": {
-    "snippets": [
-      {
-        "language": "typescript",
-        "path": "./snippets/snippets.code-snippets"
-      }
-    ]
-  }
+	"name": "jest-common-snippets",
+	"publisher": "josha0ngel03",
+	"repository": "https://github.com/undesicimo/jest-common-snippets.git",
+	"displayName": "jest-common-snippets",
+	"description": "jest-snippets、よく使うやつ",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.54.0"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "typescript",
+				"path": "./snippets/snippets.code-snippets"
+			}
+		]
+	}
 }
